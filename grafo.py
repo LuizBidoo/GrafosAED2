@@ -20,9 +20,6 @@ class Grafo:
             for edge in adj_list:
                 print(f"({edge[0]}, {edge[1]})", end=" ")
             print()
-
-    def dijkstra(self):
-        dijkstra_lista = [[None for i in range(len(grafo))]]
         
 
 isRunning = True
